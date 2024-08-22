@@ -7,14 +7,10 @@ A simple random color generator.
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 
-![Preview Image](./img/preview.png.com)
+![Preview Image](./img/preview.png)
 
 
-
-
-![Preview Video](./img/toast-demo.mp4)
-
-
+https://github.com/user-attachments/assets/90399be9-dcc6-4780-b093-2340fc72f16c
 
 ## Features
 
