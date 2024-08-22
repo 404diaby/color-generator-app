@@ -1,0 +1,127 @@
+
+*{
+
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+    background-color: var(--primary);
+    font-family: monospace;
+    transition: all .7s;
+
+
+}
+
+.color-container{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    padding: 1em;
+    background: linear-gradient(225deg, #cacaca, #f0f0f0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .9em;
+    box-shadow: 0 1em 1.875em -0.625em rgba(70, 96, 187, 0.2);
+}
+.color-hex-container{
+    padding: 1em 0;
+    width: calc(100% - 1em);
+    height: 90px;
+    border-radius: calc(45px - 1em);
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+
+
+}
+
+.generate-color-btn{
+    width: calc(100% - 1em);
+    height: 70px;
+    border-radius: calc(45px - 1em);
+    background-color: #e4e3e3;
+    padding: .6em 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight:bold ;
+}
+.generate-color-btn:hover,.copy-icon:hover{
+    transform: scale(.90);
+    background-color: #aeaeae;
+    color: var(--primary);
+}
+.copy-icon:hover{
+    fill : var(--primary)
+}
+.generate-color-btn:focus,.copy-icon:focus{
+    outline: 3px solid var(--primary);
+    outline-offset: 2px;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
+.toast{
+    position: absolute;
+    justify-self: center;
+    top: 2em;
+    border-radius: calc(45px - 1em);
+    background-color: #e4e3e3;
+    color: black;
+    font-size: 1rem;
+    font-weight:bold ;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap:.9em;
+    padding: 1em 1em;
+    animation: fromTopToBottom .3s;
+   
+
+    
+}
+
+.hidden{
+    display: none;
+}
+
+@keyframes fromTopToBottom {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+        animation-timing-function: ease-in-out;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
