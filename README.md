@@ -40,4 +40,4 @@ https://github.com/user-attachments/assets/90399be9-dcc6-4780-b093-2340fc72f16c
 
 You can try out the TodoList App demo here: 
 
-[![forthebadge](./img/host-here.svg)](https://404diaby-todo-app-eight-tawny.vercel.app/)
+[![forthebadge](./img/host-here.svg)](https://color-generator-app-ecru.vercel.app/)
